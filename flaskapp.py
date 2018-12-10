@@ -81,7 +81,7 @@ def checkLogin():
     elif password =="bg6-1":
         return redirect('/helloworld')
     return redirect('/')
- 
+
 @app.route('/helloworld')
 def show_helloworld():
     return "<p>hello world</p>"
