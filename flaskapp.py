@@ -79,7 +79,7 @@ def checkLogin():
         session['admin'] = 1
         return redirect('/edit_page')
     elif password =="bg6-1":
-        return redirect('/helloworld') 
+        return redirect('/helloworld')
     return redirect('/')
 
 @app.route('/helloworld')
