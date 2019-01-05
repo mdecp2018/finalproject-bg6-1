@@ -39,11 +39,17 @@
 <v t="leo.20190105232613.1" a="E"><vh>封面投影片</vh>
 <v t="leo.20190105232613.2"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20190106000708.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20190106000708.2"><vh>封面投影片內容</vh></v>
+</v>
 <v t="leo.20190105233140.1" a="E"><vh>封面投影片</vh>
 <v t="leo.20190105233140.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20190105233907.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20190105233907.1"><vh>封面投影片</vh>
 <v t="leo.20190105233907.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190106001259.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20190106001259.2"><vh>封面投影片內容</vh></v>
 </v>
 </v>
 </v>
@@ -332,8 +338,8 @@ bg6-1 分組網際簡報
 
 利用老師給的小遊戲進行簡單改寫，並了解python基本語法結構
 
-&lt;a href="連結前往的網址"&gt;&lt;img src="https://i.imgur.com/bqjeqHR.jpg" width="500" height="400"&gt;&lt;/a&gt;
-&lt;a href="連結前往的網址"&gt;&lt;img src="https://i.imgur.com/euIlZoh.jpg" width="500" height="400"&gt;&lt;/a&gt;
+&lt;a href="連結前往的網址"&gt;&lt;img src="https://i.imgur.com/bqjeqHR.jpg" width="500" height="200"&gt;&lt;/a&gt;
+&lt;a href="連結前往的網址"&gt;&lt;img src="https://i.imgur.com/euIlZoh.jpg" width="500" height="200"&gt;&lt;/a&gt;
 </t>
 <t tx="leo.20190105233140.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -348,8 +354,8 @@ bg6-1 分組網際簡報
 
 自己參考了老師的範例後，便從範例中選出要的結構並更改它
 
-&lt;a href="連結前往的網址"&gt;&lt;img src="https://i.imgur.com/0saKwEO.jpg" width="500" height="400"&gt;&lt;/a&gt;
-&lt;a href="連結前往的網址"&gt;&lt;img src="https://i.imgur.com/4kO7IEK.jpg" width="500" height="400"&gt;&lt;/a&gt;
+&lt;a href="連結前往的網址"&gt;&lt;img src="https://i.imgur.com/0saKwEO.jpg" width="500" height="200"&gt;&lt;/a&gt;
+&lt;a href="連結前往的網址"&gt;&lt;img src="https://i.imgur.com/4kO7IEK.jpg" width="500" height="200"&gt;&lt;/a&gt;
 </t>
 <t tx="leo.20190105233907.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -364,6 +370,50 @@ bg6-1 分組網際簡報
 
 最後寫出來的成品
 
-https://www.youtube.com/watch?v=vlaSC9xDwMI&amp;feature=youtu.be</t>
+
+&lt;iframe src="https://www.youtube.com/watch?v=vlaSC9xDwMI&amp;feature=youtu.be" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20190106000708.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190106000708.2">## python
+
+容易編寫:Python 具有許多物件導向的特性，然而並不要求一定得用物件導向的方式撰寫。撇開物件導向的議題不談，Python 通常可以靠比較短的程式碼完成比較多的功能，或者可以寫得比較清楚。
+
+功能強大:累積了相當完整的標準程式庫 (模組)，更有無以計數的非標準模組，而且絕大部分都是開放原始碼的。單以內建的模組來講，從簡單的數學運算、字串處理、網際網路協定連線、網際網路資料處理、各種壓縮格式及主要作業系統的支援功能等等，含括的範圍非常地廣泛。
+
+</t>
+<t tx="leo.20190106001259.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190106001259.2">## 自評分數
+
+ 40723219 (組長) 林承治(65)
+ 
+ 40723223 洪緯辰(60)
+ 
+ 40723225 高永霖(60)
+
+ 40723232  陳鈺凱(60)
+ 
+  40723239 黃學聖(60)
+ 
+ 40723249 顏士勛(60)
+ 
+
+
+</t>
 </tnodes>
 </leo_file>
