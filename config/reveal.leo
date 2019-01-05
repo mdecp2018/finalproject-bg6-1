@@ -21,11 +21,17 @@
 <v t="leo.20180827201621.6" a="E"><vh>body</vh>
 <v t="leo.20180827201621.7" a="E"><vh>reveal div</vh>
 <v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
-<v t="leo.20180827201621.9"><vh>封面投影片</vh>
+<v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20190103192311.1" a="E"><vh>封面投影片</vh>
-<v t="leo.20190103192311.2"><vh>封面投影片內容</vh></v>
+<v t="leo.20190105162110.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20190105162110.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190105162117.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20190105162117.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190105162121.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20190105162121.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20180827201621.11"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
@@ -127,15 +133,15 @@ QLineEdit#editorLabel {
 <t tx="leo.20180827201556.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
-<t tx="leo.20180827201621.10">## bg6-1期末專題報告
+<t tx="leo.20180827201621.10">## bg6-1期末簡報
 
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
+Created by bg6-1
 &lt;/small&gt;
 
-[2018 Fall 分組網誌](./../blog/index.html)
+[網站](https://mdecp2018.github.io/finalproject-bg6-1/content/index.html)
 
 
 </t>
@@ -329,7 +335,7 @@ bg6-1 分組網際簡報
 
 						
 </t>
-<t tx="leo.20190103192311.1">&lt;section data-markdown&gt;
+<t tx="leo.20190105162110.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -338,15 +344,43 @@ bg6-1 分組網際簡報
 
 						
 </t>
-<t tx="leo.20190103192311.2">## bg6-1期末專題報告
+<t tx="leo.20190105162110.2">## 組員
 
-### 虎科大機械設計工程系
+# 40723219 (組長) 林承治
+# 40723223 洪緯辰
+# 40723225 高永霖
+# 40723232  陳鈺凱
+# 40723239 黃學聖
+# 40723249 顏士勛
 
-&lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
-&lt;/small&gt;
 
-[2018 Fall 分組網誌](./../blog/index.html)
+</t>
+<t tx="leo.20190105162117.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190105162117.2">##  分工內容
+# 組長 林承治 : 專題製作 簡報製作
+# 組員 洪緯辰 : 學習eric6
+# 組員 高永霖 : 每周影片
+# 組員 陳鈺凱 : pdf製作
+# 組員 黃學聖 : 參與專題內容
+# 組員 顏士勛 : 處理heroku同步問題</t>
+<t tx="leo.20190105162121.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190105162121.2">## week10
 
 
 </t>
