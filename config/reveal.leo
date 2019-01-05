@@ -21,28 +21,28 @@
 <v t="leo.20180827201621.6" a="E"><vh>body</vh>
 <v t="leo.20180827201621.7" a="E"><vh>reveal div</vh>
 <v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
-<v t="leo.20180827201621.9"><vh>封面投影片</vh>
+<v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20190105162110.1"><vh>封面投影片</vh>
+<v t="leo.20190105162110.1" a="E"><vh>封面投影片</vh>
 <v t="leo.20190105162110.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20190105162117.1"><vh>封面投影片</vh>
+<v t="leo.20190105162117.1" a="E"><vh>封面投影片</vh>
 <v t="leo.20190105162117.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20190105162121.1"><vh>封面投影片</vh>
+<v t="leo.20190105162121.1" a="E"><vh>封面投影片</vh>
 <v t="leo.20190105162121.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20190105230340.1"><vh>封面投影片</vh>
+<v t="leo.20190105230340.1" a="E"><vh>封面投影片</vh>
 <v t="leo.20190105230340.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20190105232613.1"><vh>封面投影片</vh>
+<v t="leo.20190105232613.1" a="E"><vh>封面投影片</vh>
 <v t="leo.20190105232613.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20190105233140.1" a="E"><vh>封面投影片</vh>
 <v t="leo.20190105233140.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20190105233907.1"><vh>封面投影片</vh>
+<v t="leo.20190105233907.1" a="E"><vh>封面投影片</vh>
 <v t="leo.20190105233907.2"><vh>封面投影片內容</vh></v>
 </v>
 </v>
@@ -249,11 +249,17 @@ bg6-1 分組網際簡報
 <t tx="leo.20190105162110.2">## 組員
 
  40723219 (組長) 林承治
+ 
  40723223 洪緯辰
+ 
  40723225 高永霖
+
  40723232  陳鈺凱
- 40723239 黃學聖
+ 
+  40723239 黃學聖
+ 
  40723249 顏士勛
+ 
 
 
 </t>
@@ -267,11 +273,17 @@ bg6-1 分組網際簡報
 						
 </t>
 <t tx="leo.20190105162117.2">##  分工內容
+
  組長 林承治 : 專題製作 簡報製作
+ 
  組員 洪緯辰 : 學習eric6
+ 
  組員 高永霖 : 每周影片
+ 
  組員 陳鈺凱 : pdf製作
+ 
  組員 黃學聖 : 參與專題內容
+ 
  組員 顏士勛 : 處理heroku同步問題
 
 </t>
@@ -288,7 +300,7 @@ bg6-1 分組網際簡報
 
 助教利用新的p37裡的eric6教我們運用裡面的模組來創建一個頁面，學長教了我們如何利用拉桿及彈簧的運用來製造出進度條的連動
 
-&lt;a href="連結前往的網址"&gt;&lt;img src="https://i.imgur.com/ph9iQ3D.jpg" width="300" height="200"&gt;&lt;/a&gt;
+&lt;a href="連結前往的網址"&gt;&lt;img src="https://i.imgur.com/ph9iQ3D.jpg" width="500" height="400"&gt;&lt;/a&gt;
 
 </t>
 <t tx="leo.20190105230340.1">&lt;section data-markdown&gt;
@@ -304,7 +316,7 @@ bg6-1 分組網際簡報
 
 這次老師介紹Heroku來連結Github倉儲，並且同步，讓之後更方便。Heroku是第一次用的網站，遇到了有些問題並搞懂runtime等其他兩樣物件來讓Heroku跑動。
 
-&lt;a href="連結前往的網址"&gt;&lt;img src="https://i.imgur.com/y3kTzOF.jpg" width="300" height="200"&gt;&lt;/a&gt;
+&lt;a href="連結前往的網址"&gt;&lt;img src="https://i.imgur.com/y3kTzOF.jpg" width="500" height="400"&gt;&lt;/a&gt;
 
 </t>
 <t tx="leo.20190105232613.1">&lt;section data-markdown&gt;
@@ -320,8 +332,8 @@ bg6-1 分組網際簡報
 
 利用老師給的小遊戲進行簡單改寫，並了解python基本語法結構
 
-&lt;a href="連結前往的網址"&gt;&lt;img src="https://i.imgur.com/bqjeqHR.jpg" width="300" height="200"&gt;&lt;/a&gt;
-&lt;a href="連結前往的網址"&gt;&lt;img src="https://i.imgur.com/euIlZoh.jpg" width="300" height="200"&gt;&lt;/a&gt;
+&lt;a href="連結前往的網址"&gt;&lt;img src="https://i.imgur.com/bqjeqHR.jpg" width="500" height="400"&gt;&lt;/a&gt;
+&lt;a href="連結前往的網址"&gt;&lt;img src="https://i.imgur.com/euIlZoh.jpg" width="500" height="400"&gt;&lt;/a&gt;
 </t>
 <t tx="leo.20190105233140.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -336,8 +348,8 @@ bg6-1 分組網際簡報
 
 自己參考了老師的範例後，便從範例中選出要的結構並更改它
 
-&lt;a href="連結前往的網址"&gt;&lt;img src="https://i.imgur.com/0saKwEO.jpg" width="300" height="200"&gt;&lt;/a&gt;
-&lt;a href="連結前往的網址"&gt;&lt;img src="https://i.imgur.com/4kO7IEK.jpg" width="300" height="200"&gt;&lt;/a&gt;
+&lt;a href="連結前往的網址"&gt;&lt;img src="https://i.imgur.com/0saKwEO.jpg" width="500" height="400"&gt;&lt;/a&gt;
+&lt;a href="連結前往的網址"&gt;&lt;img src="https://i.imgur.com/4kO7IEK.jpg" width="500" height="400"&gt;&lt;/a&gt;
 </t>
 <t tx="leo.20190105233907.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -352,6 +364,6 @@ bg6-1 分組網際簡報
 
 最後寫出來的成品
 
-(https://www.youtube.com/watch?v=vlaSC9xDwMI&amp;feature=youtu.be)</t>
+https://www.youtube.com/watch?v=vlaSC9xDwMI&amp;feature=youtu.be</t>
 </tnodes>
 </leo_file>
