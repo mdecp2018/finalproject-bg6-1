@@ -370,8 +370,7 @@ bg6-1 分組網際簡報
 
 最後寫出來的成品
 
-&lt;iframe src="https://www.youtube.com/watch?v=vlaSC9xDwMI" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-</t>
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/vlaSC9xDwMI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20190106000708.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
