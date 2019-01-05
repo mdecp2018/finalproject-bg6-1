@@ -59,12 +59,12 @@ Created by bg6-1
     <script type="text/template">
 ## 組員
 
-# 40723219 (組長) 林承治
-# 40723223 洪緯辰
-# 40723225 高永霖
-# 40723232  陳鈺凱
-# 40723239 黃學聖
-# 40723249 顏士勛
+ 40723219 (組長) 林承治
+ 40723223 洪緯辰
+ 40723225 高永霖
+ 40723232  陳鈺凱
+ 40723239 黃學聖
+ 40723249 顏士勛
 
 
     </script>
@@ -75,12 +75,12 @@ Created by bg6-1
 <section data-markdown>
     <script type="text/template">
 ##  分工內容
-# 組長 林承治 : 專題製作 簡報製作
-# 組員 洪緯辰 : 學習eric6
-# 組員 高永霖 : 每周影片
-# 組員 陳鈺凱 : pdf製作
-# 組員 黃學聖 : 參與專題內容
-# 組員 顏士勛 : 處理heroku同步問題
+ 組長 林承治 : 專題製作 簡報製作
+ 組員 洪緯辰 : 學習eric6
+ 組員 高永霖 : 每周影片
+ 組員 陳鈺凱 : pdf製作
+ 組員 黃學聖 : 參與專題內容
+ 組員 顏士勛 : 處理heroku同步問題
 
     </script>
 </section>
@@ -89,8 +89,11 @@ Created by bg6-1
 						
 <section data-markdown>
     <script type="text/template">
-## week10
+## eric6
 
+助教利用新的p37裡的eric6教我們運用裡面的模組來創建一個頁面，學長教了我們如何利用拉桿及彈簧的運用來製造出進度條的連動
+
+<a href="連結前往的網址"><img src="https://i.imgur.com/ph9iQ3D.jpg" width="300" height="200"></a>
 
     </script>
 </section>
@@ -99,85 +102,56 @@ Created by bg6-1
 						
 <section data-markdown>
     <script type="text/template">
-# 投影片快捷鍵
+## heroku同步
 
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+這次老師介紹Heroku來連結Github倉儲，並且同步，讓之後更方便。Heroku是第一次用的網站，遇到了有些問題並搞懂runtime等其他兩樣物件來讓Heroku跑動。
+
+<a href="連結前往的網址"><img src="https://i.imgur.com/y3kTzOF.jpg" width="300" height="200"></a>
 
     </script>
 </section>
-
-
-						
-<section>
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-# 數學符號與方程式
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
-    </script>
-</section>
-
 
 
 						
 <section data-markdown>
     <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
+## 小遊戲
 
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
+利用老師給的小遊戲進行簡單改寫，並了解python基本語法結構
+
+<a href="連結前往的網址"><img src="https://i.imgur.com/bqjeqHR.jpg" width="300" height="200"></a>
+<a href="連結前往的網址"><img src="https://i.imgur.com/euIlZoh.jpg" width="300" height="200"></a>
     </script>
 </section>
-
 
 
 						
 <section data-markdown>
     <script type="text/template">
-## 使用 iframe 導入影片
+## 專題
 
-### 導入影片 template
+自己參考了老師的範例後，便從範例中選出要的結構並更改它
 
-<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<a href="連結前往的網址"><img src="https://i.imgur.com/0saKwEO.jpg" width="300" height="200"></a>
+<a href="連結前往的網址"><img src="https://i.imgur.com/4kO7IEK.jpg" width="300" height="200"></a>
     </script>
 </section>
 
 
 						
+<section data-markdown>
+    <script type="text/template">
+## 專題
+
+最後寫出來的成品
+
+(https://www.youtube.com/watch?v=vlaSC9xDwMI&feature=youtu.be)
+
+    </script>
 </section>
 
+
+						
 </div>
 
 </div>

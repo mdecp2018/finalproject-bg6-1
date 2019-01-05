@@ -21,31 +21,29 @@
 <v t="leo.20180827201621.6" a="E"><vh>body</vh>
 <v t="leo.20180827201621.7" a="E"><vh>reveal div</vh>
 <v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
-<v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
+<v t="leo.20180827201621.9"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20190105162110.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20190105162110.1"><vh>封面投影片</vh>
 <v t="leo.20190105162110.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20190105162117.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20190105162117.1"><vh>封面投影片</vh>
 <v t="leo.20190105162117.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20190105162121.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20190105162121.1"><vh>封面投影片</vh>
 <v t="leo.20190105162121.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180827201621.11"><vh>快捷鍵</vh>
-<v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20190105230340.1"><vh>封面投影片</vh>
+<v t="leo.20190105230340.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
-<v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
-<v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20190105232613.1"><vh>封面投影片</vh>
+<v t="leo.20190105232613.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180827201621.16" a="E"><vh>導入縮排程式碼</vh>
-<v t="leo.20180827201621.17"><vh>引用程式碼</vh></v>
+<v t="leo.20190105233140.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20190105233140.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180827201621.18" a="E"><vh>導入影片</vh>
-<v t="leo.20180827201621.19"><vh>iframe 導入影片</vh></v>
-</v>
+<v t="leo.20190105233907.1"><vh>封面投影片</vh>
+<v t="leo.20190105233907.2"><vh>封面投影片內容</vh></v>
 </v>
 </v>
 </v>
@@ -144,102 +142,6 @@ Created by bg6-1
 [網站](https://mdecp2018.github.io/finalproject-bg6-1/content/index.html)
 
 
-</t>
-<t tx="leo.20180827201621.11">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20180827201621.12"># 投影片快捷鍵
-
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
-
-</t>
-<t tx="leo.20180827201621.13">&lt;section&gt;
-@others
-&lt;/section&gt;
-
-</t>
-<t tx="leo.20180827201621.14">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20180827201621.15"># 數學符號與方程式
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
-</t>
-<t tx="leo.20180827201621.16">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20180827201621.17">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-@language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
-
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
-</t>
-<t tx="leo.20180827201621.18">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20180827201621.19">## 使用 iframe 導入影片
-
-### 導入影片 template
-
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20180827201621.2"></t>
 <t tx="leo.20180827201621.3">@language xml
@@ -346,12 +248,12 @@ bg6-1 分組網際簡報
 </t>
 <t tx="leo.20190105162110.2">## 組員
 
-# 40723219 (組長) 林承治
-# 40723223 洪緯辰
-# 40723225 高永霖
-# 40723232  陳鈺凱
-# 40723239 黃學聖
-# 40723249 顏士勛
+ 40723219 (組長) 林承治
+ 40723223 洪緯辰
+ 40723225 高永霖
+ 40723232  陳鈺凱
+ 40723239 黃學聖
+ 40723249 顏士勛
 
 
 </t>
@@ -365,12 +267,14 @@ bg6-1 分組網際簡報
 						
 </t>
 <t tx="leo.20190105162117.2">##  分工內容
-# 組長 林承治 : 專題製作 簡報製作
-# 組員 洪緯辰 : 學習eric6
-# 組員 高永霖 : 每周影片
-# 組員 陳鈺凱 : pdf製作
-# 組員 黃學聖 : 參與專題內容
-# 組員 顏士勛 : 處理heroku同步問題</t>
+ 組長 林承治 : 專題製作 簡報製作
+ 組員 洪緯辰 : 學習eric6
+ 組員 高永霖 : 每周影片
+ 組員 陳鈺凱 : pdf製作
+ 組員 黃學聖 : 參與專題內容
+ 組員 顏士勛 : 處理heroku同步問題
+
+</t>
 <t tx="leo.20190105162121.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -380,9 +284,74 @@ bg6-1 分組網際簡報
 
 						
 </t>
-<t tx="leo.20190105162121.2">## week10
+<t tx="leo.20190105162121.2">## eric6
 
+助教利用新的p37裡的eric6教我們運用裡面的模組來創建一個頁面，學長教了我們如何利用拉桿及彈簧的運用來製造出進度條的連動
+
+&lt;a href="連結前往的網址"&gt;&lt;img src="https://i.imgur.com/ph9iQ3D.jpg" width="300" height="200"&gt;&lt;/a&gt;
 
 </t>
+<t tx="leo.20190105230340.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190105230340.2">## heroku同步
+
+這次老師介紹Heroku來連結Github倉儲，並且同步，讓之後更方便。Heroku是第一次用的網站，遇到了有些問題並搞懂runtime等其他兩樣物件來讓Heroku跑動。
+
+&lt;a href="連結前往的網址"&gt;&lt;img src="https://i.imgur.com/y3kTzOF.jpg" width="300" height="200"&gt;&lt;/a&gt;
+
+</t>
+<t tx="leo.20190105232613.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190105232613.2">## 小遊戲
+
+利用老師給的小遊戲進行簡單改寫，並了解python基本語法結構
+
+&lt;a href="連結前往的網址"&gt;&lt;img src="https://i.imgur.com/bqjeqHR.jpg" width="300" height="200"&gt;&lt;/a&gt;
+&lt;a href="連結前往的網址"&gt;&lt;img src="https://i.imgur.com/euIlZoh.jpg" width="300" height="200"&gt;&lt;/a&gt;
+</t>
+<t tx="leo.20190105233140.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190105233140.2">## 專題
+
+自己參考了老師的範例後，便從範例中選出要的結構並更改它
+
+&lt;a href="連結前往的網址"&gt;&lt;img src="https://i.imgur.com/0saKwEO.jpg" width="300" height="200"&gt;&lt;/a&gt;
+&lt;a href="連結前往的網址"&gt;&lt;img src="https://i.imgur.com/4kO7IEK.jpg" width="300" height="200"&gt;&lt;/a&gt;
+</t>
+<t tx="leo.20190105233907.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190105233907.2">## 專題
+
+最後寫出來的成品
+
+(https://www.youtube.com/watch?v=vlaSC9xDwMI&amp;feature=youtu.be)</t>
 </tnodes>
 </leo_file>
