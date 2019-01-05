@@ -45,7 +45,7 @@
 <v t="leo.20190105233140.1" a="E"><vh>封面投影片</vh>
 <v t="leo.20190105233140.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20190105233907.1"><vh>封面投影片</vh>
+<v t="leo.20190105233907.1" a="E"><vh>封面投影片</vh>
 <v t="leo.20190105233907.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20190106001259.1" a="E"><vh>封面投影片</vh>
@@ -371,7 +371,7 @@ bg6-1 分組網際簡報
 最後寫出來的成品
 
 
-&lt;iframe src="https://www.youtube.com/watch?v=vlaSC9xDwMI&amp;feature=youtu.be" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe src="https://www.youtube.com/watch?v=vlaSC9xDwMI" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20190106000708.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
